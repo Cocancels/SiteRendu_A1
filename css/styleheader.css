@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    background-color: #0b0b0b;
+    width: 100%;
+    max-width: 2000px;
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+}
+
+.boutonOuvrir {
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    z-index: 200;
+    background: green;
+    visibility: hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+.boutonFermer {
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    z-index: 200;
+    visibility: visible;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;  
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.liste1, .liste2, .liste3, .liste4, .liste5, .liste7, .liste9{
+    padding: 15px 40px;
+    font-size: 2em;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block
+}
+
+.liste6{
+    padding: 15px 40px 15px 40px;
+    font-size: 2em;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    display: none;
+}
+
+.liste8{
+    vertical-align: middle;
+
+}
+
+.liste1:hover, 
+.liste2:hover, 
+.liste3:hover, 
+.liste4:hover, 
+.liste5:hover, 
+.liste6:hover, 
+.liste7:hover, 
+.liste9:hover{
+    background-color: white;
+    transition-duration: 0.5s;
+    color: #0b0b0b;
+}
+
+#image{
+    margin-left: 40px;
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition:0.5s;
+}
+
+#image:hover{
+    cursor: pointer;
+    transition: 0.5s;   
+    border-radius: 0%;
+
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    nav {
+    position: none;
+    display : block !important;
+    height: 100vh;
+    text-align: center;
+    overflow-y: scroll;
+    }  
+}
+
+
+

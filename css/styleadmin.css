@@ -1,0 +1,26 @@
+* {
+    margin : 0;
+    padding : 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    text-align: center;
+
+}
+
+.single{
+    display: inline-block;
+    margin: 50px 30px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.auteur, .email, .msg, .id, .date{
+    border: solid 1px black;
+    padding: 10px;
+    font-size: 20px;
+}

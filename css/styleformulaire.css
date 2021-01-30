@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #0f0f0f;
+    background-color: #0b0b0b;
+}
+
+#container{
+    background-image: url(../images/fondformu.jpg);
+    height: 100vh;
+    text-align: center;
+}
+
+#contactme {
+    text-align: center;
+    margin-top: 100px;
+    display: inline-block;
+    border-radius: 50px;
+    padding-bottom: 30px;
+}
+
+.connect{
+    padding-top: 200px;
+    font-size: 35px;
+    color: #0b0b0b;
+    font-weight: bolder;
+}
+
+.seconnecter{
+    display: inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0b0b0b;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+.seconnecter:hover{
+    border-radius: 0px;
+    background-color: rgb(26, 124, 31);
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+
+}
+
+#msg,
+#mail,
+#pseudo{
+    margin-top: 20px;
+}
+
+#msg,
+#mail {
+    width: 300px;
+}
+
+#msg{
+    width: 400px;
+    height: 200px;
+}
+
+#label1,
+#label2,
+#label3{
+    color: #0b0b0b;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+
+#envoyer {
+    width: 100px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.oui {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 1%;
+    top: 3%;
+    background-color: #0b0b0b;
+    color: white;
+    height: 50px;
+    text-decoration: none;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 50px;
+    line-height: 50px;
+
+    vertical-align:middle;
+        
+}
+
+
